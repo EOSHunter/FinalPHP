@@ -1,0 +1,348 @@
+body {
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-family: 'Cinzel Decorative', cursive;
+} 
+
+/*===========================================================================================================================================
+********************************************************************************| PAGE LOAD START |*****************************************/
+
+
+#intro {
+	position: absolute;
+	top: 0;
+	display: hidden;
+	width: 100%;
+	height: 1000px;
+	color: white;
+	text-align: center;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+
+#intro .retnuh {
+	padding-top: 15%;
+	margin: 20px auto;
+}
+
+#wrapper {
+  display: hidden;
+}
+
+#btn-goto {
+	display: hidden;
+}
+
+.name {
+  color: white; 
+  font-size: 20px;
+  width: 30em;
+}
+
+/**********************************************************************************| PAGE LOAD END |*****************************************
+===========================================================================================================================================*/
+
+
+
+
+
+
+
+
+
+/*===========================================================================================================================================
+***************************************************************| HOME START |****************************************************************
+===========================================================================================================================================*/
+
+/*body {
+	background-color: white;
+}*/
+
+.slideshow {
+	width: 100%;
+	position: absolute;
+	top: 64px;
+}	
+
+
+.featured {
+	width: 50%;
+	padding-top: 250px;
+	padding-bottom: 30px;
+	margin: 0 auto;
+}
+
+.main-home {
+	width: 100%;
+    position: absolute;
+    top: 600px;
+    z-index: 1;
+    text-align: center;
+}
+
+.main-home h1 {
+	font-size: 1.7em;
+}
+
+.main-home h2 {
+	font-size: 2.0em;
+}
+
+/*===================================| NAVBAR START |========================================*/
+.navbar {
+	height: 63px;
+	overflow: hidden;
+	background-color: rgb(247, 247, 247);
+	border-bottom: solid;
+	border-bottom-color: white;
+	border-bottom-width: 1px;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+
+
+li {
+	padding: 7px 50px;
+	list-style-type: none;
+}
+
+.open-slide {
+	position: absolute;
+	top: 17px;
+	left: 17px;
+}
+
+.open-slide:hover {
+	cursor: pointer;
+}
+
+.btn-close {
+	z-index: 2;
+}
+
+.side-nav {
+	height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: rgb(244, 244, 244);
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgb(193, 193, 193);
+    display: block;
+    transition: 0.3s;
+    padding-top: 20px;
+    margin-left: -20px;
+}
+
+.side-nav a:hover {
+	color: #282828;
+	cursor: pointer;
+}
+
+.side-nav .btn-close {
+    position: absolute;
+    top: -18px;
+    right: 15px;
+    font-size: 2.5em;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+#main {
+	transition: margin-left 0.5s;
+	padding: 20px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.name-title {
+    top: 24px;
+    left: 65px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 1;
+    text-align: left;
+}
+
+.name-title a {
+	text-decoration: none;
+	color: #282828;
+}
+
+#selected {
+	color: #282828;
+}
+
+#footer-selected {
+	color: #282828;
+}
+
+/*===================================| NAVBAR END |========================================*/
+
+
+
+
+/**********************| PRODUCTS START |*******************************************************************************/
+
+.product-container {
+	padding-top: 75px;
+    margin: 0 auto;
+    width: 90%;
+    height: 2000px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.products {
+	padding-bottom: 12px;
+	padding-top: 50px;
+	width: 320px;
+	height: auto;
+}
+
+.brand-title {
+	color: #c1c1c1;
+}
+
+.product-name {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	padding-right: 30px;
+}
+
+.product {
+	width: 320px;
+    text-align: left;
+    float: left;
+    padding: 29px;
+    margin: 0 auto;
+}
+
+.product-description {
+	padding-top: 10px;
+	font-weight: bold;
+	color: rgb(193, 193, 193);
+}
+
+.product-container h1 {
+	font-size: 1.5em;
+	padding-top: 5px;
+	color: #282828;
+}
+
+figcaption {
+	padding-left: 30px;
+}
+
+.product-price {
+	font-weight: bold;
+	font-size: 1.1em;
+	padding-top: 20px;
+}
+
+.categories {
+	padding-top: 65px;
+	text-align: center;
+	background-color: #e7e7e7;
+}
+
+.categories li {
+	display: inline-block;
+}
+
+.categories a {
+	text-decoration: none;
+	color: #787878;
+}
+
+.categories-title {
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #787878;
+}
+
+/***************| DROPDOWN START |***************/
+li a, .maindropdown {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li .dropdown {
+    display: inline-block;
+}
+
+.down {
+    display: none;
+    /*background-color: #f1f1f1;*/
+    min-width: 160px;
+}
+
+.down a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.down a:hover {
+	color: #282828;
+	cursor: pointer;
+}
+
+.dropdown:hover .down {
+    display: block;
+}
+/***************| DROPDOWN END |***************/
+
+
+/**********************| PRODUCTS END |******************************************************************************/
+
+
+/**********************| FOOTER START |*******************************************************************************/
+
+.footer-section {
+	text-align: center;
+	width: 100%;
+	height: 150px;
+	background-color: rgb(247, 247, 247);
+	display: inline-block;
+}
+
+.footer li {
+	display: inline-block;
+	padding-top: 40px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #c2c2c2;
+}
+
+.footer a:hover {
+	color: #282828;
+}
+
+.footer-text {
+	padding-top: 20px;
+}
+
+/**********************| FOOTER END |*******************************************************************************/
